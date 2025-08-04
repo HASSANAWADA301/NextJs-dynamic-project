@@ -1,0 +1,90 @@
+[
+  {
+    "id": "header",
+    "type": "Header",
+    "translations": {
+      "en": {
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "About Us", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Review", "href": "/review" }
+        ],
+        "contactLabel": "Contact Us",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "fr": {
+        "navItems": [
+          { "label": "Accueil", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "À propos", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Avis", "href": "/review" }
+        ],
+        "contactLabel": "Contactez-nous",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "ar": {
+        "navItems": [
+          { "label": "الرئيسية", "href": "/" },
+          { "label": "الخدمات", "href": "/services" },
+          { "label": "من نحن", "href": "/about" },
+          { "label": "أعمالنا", "href": "/portfolio" },
+          { "label": "المراجعات", "href": "/review" }
+        ],
+        "contactLabel": "اتصل بنا",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      }
+    }
+  },
+{
+    "id": "who we are",
+    "type": "WhoWeAre",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8MolffnXO47Ua7gFiRMwpl93cT5EdgVMTA&s",
+    "translations": {
+      "en": {
+        "title": "Who We Are",
+        "highlight": "Who",
+        "description": "We are a team of passionate creatives dedicated to delivering top-quality design solutions.",
+        "bullets": [
+          "Customer-focused approach",
+          "Innovative and modern designs",
+          "Attention to detail",
+          "Collaborative process",
+          "Timely delivery"
+        ]
+      },
+      "fr": {
+        "title": "Qui Nous Sommes ?",
+        "highlight": "Qui",
+        "description": "Nous sommes une équipe de créatifs passionnés dédiée à fournir des solutions de design de haute qualité.",
+        "bullets": [
+          "Approche centrée sur le client",
+          "Designs innovants et modernes",
+          "Souci du détail",
+          "Processus collaboratif",
+          "Livraison ponctuelle"
+        ]
+      },
+      "ar": {
+        "title": "من نحن ؟",
+        "highlight": "من",
+        "description": "نحن فريق من المبدعين الشغوفين ملتزمون بتقديم حلول تصميم عالية الجودة.",
+        "bullets": [
+          "نهج يركز على العميل",
+          "تصاميم مبتكرة وعصرية",
+          "الاهتمام بالتفاصيل",
+          "عملية تعاونية",
+          "تسليم في الوقت المحدد"
+        ]
+      }
+    }
+  }
+]

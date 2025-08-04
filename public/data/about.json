@@ -1,0 +1,75 @@
+[
+  {
+    "id": "header",
+    "type": "Header",
+    "translations": {
+      "en": {
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "About Us", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Review", "href": "/review" }
+        ],
+        "contactLabel": "Contact Us",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "fr": {
+        "navItems": [
+          { "label": "Accueil", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "À propos", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Avis", "href": "/review" }
+        ],
+        "contactLabel": "Contactez-nous",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "ar": {
+        "navItems": [
+          { "label": "الرئيسية", "href": "/" },
+          { "label": "الخدمات", "href": "/services" },
+          { "label": "من نحن", "href": "/about" },
+          { "label": "أعمالنا", "href": "/portfolio" },
+          { "label": "المراجعات", "href": "/review" }
+        ],
+        "contactLabel": "اتصل بنا",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      }
+    }
+  },
+ {
+    "id": "about us",
+    "type": "AboutUs",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8MolffnXO47Ua7gFiRMwpl93cT5EdgVMTA&s",
+    "translations": {
+      "en": {
+        "title": "About Us",
+        "highlightHeading": "Unleashing the Full Potential of Your Brand with Creativity and Strategic Vision",
+        "subheading": "Crafting Brilliance Together",
+        "paragraph": "Our mission is to unleash the full potential of your brand, combining creativity with strategic vision to achieve extraordinary results.",
+        "choices": ["Innovate", "Create", "Elevate", "Ideas", "Imagination"]
+      },
+      "fr": {
+        "title": "À propos de nous",
+        "highlightHeading": "Libérer le plein potentiel de votre marque avec créativité et vision stratégique",
+        "subheading": "Créer de l'excellence ensemble",
+        "paragraph": "Notre mission est de libérer le plein potentiel de votre marque, en combinant créativité et vision stratégique pour atteindre des résultats extraordinaires.",
+        "choices": ["Innover", "Créer", "Élever", "Idées", "Imagination"]
+      },
+      "ar": {
+        "title": "من نحن",
+        "highlightHeading": "إطلاق الإمكانات الكاملة لعلامتك التجارية بالإبداع والرؤية الإستراتيجية",
+        "subheading": "صياغة التميز معًا",
+        "paragraph": "مهمتنا هي إطلاق الإمكانات الكاملة لعلامتك التجارية من خلال الجمع بين الإبداع والرؤية الإستراتيجية لتحقيق نتائج استثنائية.",
+        "choices": ["ابتكر", "أنشئ", "ارتقِ", "أفكار", "خيال"]
+      }
+    }
+  }
+]

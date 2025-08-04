@@ -1,0 +1,593 @@
+[
+  {
+    "id": "header",
+    "type": "Header",
+    "translations": {
+      "en": {
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "About Us", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Review", "href": "/review" }
+        ],
+        "contactLabel": "Contact Us",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "fr": {
+        "navItems": [
+          { "label": "Accueil", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "À propos", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Avis", "href": "/review" }
+        ],
+        "contactLabel": "Contactez-nous",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "ar": {
+        "navItems": [
+          { "label": "الرئيسية", "href": "/" },
+          { "label": "الخدمات", "href": "/services" },
+          { "label": "من نحن", "href": "/about" },
+          { "label": "أعمالنا", "href": "/portfolio" },
+          { "label": "المراجعات", "href": "/review" }
+        ],
+        "contactLabel": "اتصل بنا",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      }
+    }
+  },
+  {
+    "id": "hero",
+    "type": "Hero",
+    "imageUrl": "/images/hero.jpg",
+    "urlImage": "https://img.freepik.com/free-photo/young-man-with-his-arms-air_23-2148283136.jpg",
+    "translations": {
+      "en": {
+        "heading": "Transforming Your Ideas into Stunning Designs",
+        "highlightWords": ["Transforming", "Stunning"],
+        "tabs": [
+          { "label": "Get your design", "lighted": false },
+          { "label": "10k+ Client", "lighted": true }
+        ],
+        "cards": [
+          {
+            "title": "Creative Expertise in Innovative Design",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          },
+          {
+            "title": "Tailored Solution:\nCustomized for:\nYou",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          }
+        ]
+      },
+
+      "ar": {
+        "heading": "نحو تحويل أفكارك إلى تصاميم مدهشة",
+        "highlightWords": ["تحويل", "مدهشة"],
+        "tabs": [
+          { "label": "احصل على تصميمك", "lighted": false },
+          { "label": "+10 آلاف عميل", "lighted": true }
+        ],
+        "cards": [
+          {
+            "title": "الخبرة الإبداعية في التصميم المبتكر",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          },
+          {
+            "title": "حلول مخصصة: مصممة لك بكل شيء",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          }
+        ]
+      },
+      "fr": {
+        "heading": "Transformer vos idées en designs époustouflants",
+        "highlightWords": ["Transformer", "époustouflants"],
+        "tabs": [
+          { "label": "Obtenez votre design", "lighted": false },
+          { "label": "10k+ Clients", "lighted": true }
+        ],
+        "cards": [
+          {
+            "title": "Expertise créative en design innovant",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          },
+          {
+            "title": "Solutions personnalisées :\nConçues ",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          }
+        ]
+      }
+    }
+  },
+
+  {
+    "id": "about us",
+    "type": "AboutUs",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8MolffnXO47Ua7gFiRMwpl93cT5EdgVMTA&s",
+    "translations": {
+      "en": {
+        "title": "About Us",
+        "highlightHeading": "Unleashing the Full Potential of Your Brand with Creativity and Strategic Vision",
+        "subheading": "Crafting Brilliance Together",
+        "paragraph": "Our mission is to unleash the full potential of your brand, combining creativity with strategic vision to achieve extraordinary results.",
+        "choices": ["Innovate", "Create", "Elevate", "Ideas", "Imagination"]
+      },
+      "fr": {
+        "title": "À propos de nous",
+        "highlightHeading": "Libérer le plein potentiel de votre marque avec créativité et vision stratégique",
+        "subheading": "Créer de l'excellence ensemble",
+        "paragraph": "Notre mission est de libérer le plein potentiel de votre marque, en combinant créativité et vision stratégique pour atteindre des résultats extraordinaires.",
+        "choices": ["Innover", "Créer", "Élever", "Idées", "Imagination"]
+      },
+      "ar": {
+        "title": "من نحن",
+        "highlightHeading": "إطلاق الإمكانات الكاملة لعلامتك التجارية بالإبداع والرؤية الإستراتيجية",
+        "subheading": "صياغة التميز معًا",
+        "paragraph": "مهمتنا هي إطلاق الإمكانات الكاملة لعلامتك التجارية من خلال الجمع بين الإبداع والرؤية الإستراتيجية لتحقيق نتائج استثنائية.",
+        "choices": ["ابتكر", "أنشئ", "ارتقِ", "أفكار", "خيال"]
+      }
+    }
+  },
+  {
+    "id": "services",
+    "type": "Services",
+    "imageUrl": "https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4?autoplay=1",
+    "translations": {
+      "en": {
+        "title": "Services We",
+        "highlight": "Provide",
+        "paragraph": "We offer a wide range of design services to meet all your creative needs:",
+        "services": [
+          {
+            "title": "Social Media Design",
+            "description": "Creating compelling visuals for your social media platforms is essential",
+            "colored": true
+          },
+          {
+            "title": "Graphic Design for Branding",
+            "description": "Creating eye-catching graphics that represent your brand identity and attract your target audience. Seamless user experiences.",
+            "colored": false
+          },
+          {
+            "title": "Optimized UI/UX Design for Digital Products",
+            "description": "Designing intuitive interfaces that enhance user satisfaction and product usability.",
+            "colored": false
+          },
+          {
+            "title": "Video Production and Editing",
+            "description": "Producing high-quality videos that tell your brand story and engage your audience.",
+            "colored": false
+          }
+        ]
+      },
+      "fr": {
+        "title": "Services",
+        "highlight": "Offerts",
+        "paragraph": "Nous proposons une large gamme de services de design pour répondre à tous vos besoins créatifs :",
+        "services": [
+          {
+            "title": "Design pour les réseaux sociaux",
+            "description": "Créer des visuels percutants pour vos plateformes sociales est essentiel",
+            "colored": true
+          },
+          {
+            "title": "Design graphique pour l’image de marque",
+            "description": "Créer des visuels accrocheurs qui reflètent l'identité de votre marque et attirent votre audience cible. Expériences utilisateurs fluides.",
+            "colored": false
+          },
+          {
+            "title": "Conception UI/UX optimisée pour les produits numériques",
+            "description": "Concevoir des interfaces intuitives qui améliorent la satisfaction et l’expérience utilisateur.",
+            "colored": false
+          },
+          {
+            "title": "Production et montage vidéo",
+            "description": "Produire des vidéos de haute qualité qui racontent l’histoire de votre marque et captivent votre audience.",
+            "colored": false
+          }
+        ]
+      },
+      "ar": {
+        "title": "خدماتنا",
+        "highlight": "المقدمة",
+        "paragraph": "نقدم مجموعة واسعة من خدمات التصميم لتلبية جميع احتياجاتك الإبداعية:",
+        "services": [
+          {
+            "title": "تصميم وسائل التواصل الاجتماعي",
+            "description": "إنشاء تصاميم جذابة وفعالة لمنصات التواصل الاجتماعي الخاصة بك أمر ضروري",
+            "colored": true
+          },
+          {
+            "title": "تصميم الجرافيك للهوية البصرية",
+            "description": "إنشاء رسومات ملفتة تعكس هوية علامتك التجارية وتجذب جمهورك المستهدف. تجارب مستخدم سلسة.",
+            "colored": false
+          },
+          {
+            "title": "تصميم UI/UX محسن للمنتجات الرقمية",
+            "description": "تصميم واجهات سهلة الاستخدام تعزز رضا المستخدم وسهولة استخدام المنتج.",
+            "colored": false
+          },
+          {
+            "title": "إنتاج وتحرير الفيديو",
+            "description": "إنتاج فيديوهات عالية الجودة تسرد قصة علامتك التجارية وتجذب جمهورك.",
+            "colored": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "who we are",
+    "type": "WhoWeAre",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8MolffnXO47Ua7gFiRMwpl93cT5EdgVMTA&s",
+    "translations": {
+      "en": {
+        "title": "Who We Are",
+        "highlight": "Who",
+        "description": "We are a team of passionate creatives dedicated to delivering top-quality design solutions.",
+        "bullets": [
+          "Customer-focused approach",
+          "Innovative and modern designs",
+          "Attention to detail",
+          "Collaborative process",
+          "Timely delivery"
+        ]
+      },
+      "fr": {
+        "title": "Qui Nous Sommes ?",
+        "highlight": "Qui",
+        "description": "Nous sommes une équipe de créatifs passionnés dédiée à fournir des solutions de design de haute qualité.",
+        "bullets": [
+          "Approche centrée sur le client",
+          "Designs innovants et modernes",
+          "Souci du détail",
+          "Processus collaboratif",
+          "Livraison ponctuelle"
+        ]
+      },
+      "ar": {
+        "title": "من نحن ؟",
+        "highlight": "من",
+        "description": "نحن فريق من المبدعين الشغوفين ملتزمون بتقديم حلول تصميم عالية الجودة.",
+        "bullets": [
+          "نهج يركز على العميل",
+          "تصاميم مبتكرة وعصرية",
+          "الاهتمام بالتفاصيل",
+          "عملية تعاونية",
+          "تسليم في الوقت المحدد"
+        ]
+      }
+    }
+  },
+  {
+    "id": "stats-data",
+    "type": "States",
+    "translations": {
+      "en": [
+        { "value": "20", "label": "Your Experience" },
+        { "value": "350", "label": "Business" },
+        { "value": "36", "label": "Expert" },
+        { "value": "106 K+", "label": "Happy Client" }
+      ],
+      "fr": [
+        { "value": "20", "label": "Votre Expérience" },
+        { "value": "350", "label": "Affaires" },
+        { "value": "36", "label": "Expert" },
+        { "value": "106 K+", "label": "Client Satisfait" }
+      ],
+      "ar": [
+        { "value": "20", "label": "خبرتك" },
+        { "value": "350", "label": "أعمال" },
+        { "value": "36", "label": "خبير" },
+        { "value": "106 الف", "label": "عميل سعيد" }
+      ]
+    }
+  },
+  {
+    "id": "projects",
+    "type": "Projects",
+    "translations": {
+      "en": {
+        "title": "Projects",
+        "highlight": "Recent",
+        "projects": [
+          {
+            "title": "Web Design",
+            "description": "Modern responsive web designs."
+          },
+          {
+            "title": "Branding",
+            "description": "Powerful brand identity solutions."
+          },
+          {
+            "title": "App UI",
+            "description": "Smooth, user-friendly interfaces."
+          },
+          {
+            "title": "App UI2",
+            "description": "Smooth, user-friendly interfaces."
+          },
+          {
+            "title": "App UI3",
+            "description": "Smooth, user-friendly interfaces."
+          }
+        ]
+      },
+      "fr": {
+        "title": "Projets",
+        "highlight": "Récents",
+        "projects": [
+          {
+            "title": "Conception Web",
+            "description": "Des designs modernes et réactifs."
+          },
+          {
+            "title": "Branding",
+            "description": "Solutions puissantes d'identité de marque."
+          },
+          {
+            "title": "Interface App",
+            "description": "Interfaces fluides et conviviales."
+          }
+        ]
+      },
+      "ar": {
+        "title": "الحديثة",
+        "highlight": "المشاريع",
+        "projects": [
+          { "title": "تصميم المواقع", "description": "تصاميم عصرية ومتجاوبة." },
+          {
+            "title": "بناء الهوية",
+            "description": "حلول قوية لهوية العلامة التجارية."
+          },
+          {
+            "title": "واجهة التطبيقات",
+            "description": "واجهات سلسة وسهلة الاستخدام."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "best price",
+    "type": "BestPrice",
+    "translations": {
+      "en": {
+        "packages": [
+          {
+            "title": "Basic Plan",
+            "price": "$19/mo",
+            "features": ["1 Website", "Basic Support", "500MB Storage"]
+          },
+          {
+            "title": "Pro Plan",
+            "price": "$49/mo",
+            "features": ["5 Websites", "Priority Support", "10GB Storage"]
+          }
+        ],
+        "heading": "Best Pricing",
+        "highlight": "Plan"
+      },
+      "fr": {
+        "packages": [
+          {
+            "title": "Plan de Base",
+            "price": "19$/mois",
+            "features": ["1 site web", "Support de base", "500Mo de stockage"]
+          },
+          {
+            "title": "Plan Pro",
+            "price": "49$/mois",
+            "features": [
+              "5 sites web",
+              "Support prioritaire",
+              "10Go de stockage"
+            ]
+          }
+        ],
+        "heading": "Plan",
+        "highlight": "Bon Prix"
+      },
+      "ar": {
+        "packages": [
+          {
+            "title": "الخطة الأساسية",
+            "price": "19$/شهريًا",
+            "features": ["موقع واحد", "دعم أساسي", "500 ميغابايت تخزين"]
+          },
+          {
+            "title": "الخطة الاحترافية",
+            "price": "49$/شهريًا",
+            "features": ["5 مواقع", "دعم أولوية", "10 جيجابايت تخزين"]
+          }
+        ],
+        "heading": "باقة",
+        "highlight": "السعر الافضل"
+      }
+    }
+  },
+  {
+    "id": "feedback",
+    "type": "Feedback",
+    "translations": {
+      "en": {
+        "title": "Testimonials",
+        "subtitle": "500+ Happy Clients Said To US They Are Satisfied",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/05/05/08/05/butterfly-5131967_1280.jpg",
+        "feedbacks": [
+          {
+            "name": "Hassan Awada",
+            "country": "Lebanon",
+            "content": "Excellent service!"
+          },
+          { "name": "Sarah", "country": "USA", "content": "Very satisfied." }
+        ]
+      },
+      "fr": {
+        "title": "Témoignages",
+        "subtitle": "500+ clients satisfaits nous ont dit qu'ils sont heureux",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/05/05/08/05/butterfly-5131967_1280.jpg",
+        "feedbacks": [
+          {
+            "name": "Hassan Awada",
+            "country": "Liban",
+            "content": "Service excellent!"
+          },
+          {
+            "name": "Sarah",
+            "country": "États-Unis",
+            "content": "Très satisfaite."
+          }
+        ]
+      },
+      "ar": {
+        "title": "آراء العملاء",
+        "subtitle": "أكثر من 500 عميل سعداء قالوا إنهم راضون",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/05/05/08/05/butterfly-5131967_1280.jpg",
+        "feedbacks": [
+          {
+            "name": "حسن عواضة",
+            "country": "لبنان",
+            "content": "خدمة ممتازة!"
+          },
+          { "name": "سارة", "country": "أمريكا", "content": "راضية جدًا." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "subscribe",
+    "type": "Subscribe",
+    "translations": {
+      "en": {
+        "title": "Subscribe To Our Newsletter",
+        "subtitle": "Subscribe Now",
+        "inputPlaceholder": "Email Address",
+        "buttonLabel": "Subscribe",
+        "footerText": "Already a member?",
+        "footerLink": "Sign In",
+        "imageUrl": "https://png.pngtree.com/thumb_back/fh260/background/20210101/pngtree-double-row-tree-path-with-yellow-deciduous-autumn-leaves-image_519106.jpg"
+      },
+      "fr": {
+        "title": "Abonnez-vous à notre newsletter",
+        "subtitle": "Abonnez-vous maintenant",
+        "inputPlaceholder": "Adresse e-mail",
+        "buttonLabel": "S'abonner",
+        "footerText": "Déjà membre ?",
+        "footerLink": "Se connecter",
+        "imageUrl": "https://png.pngtree.com/thumb_back/fh260/background/20210101/pngtree-double-row-tree-path-with-yellow-deciduous-autumn-leaves-image_519106.jpg"
+      },
+      "ar": {
+        "title": "اشترك في نشرتنا الإخبارية",
+        "subtitle": "اشترك الآن",
+        "inputPlaceholder": "البريد الإلكتروني",
+        "buttonLabel": "اشترك",
+        "footerText": "هل أنت عضو بالفعل؟",
+        "footerLink": "تسجيل الدخول",
+        "imageUrl": "https://png.pngtree.com/thumb_back/fh260/background/20210101/pngtree-double-row-tree-path-with-yellow-deciduous-autumn-leaves-image_519106.jpg"
+      }
+    }
+  },
+  {
+    "id":"footer",
+    "type":"Footer",
+    "translations": {
+      "en": {
+        "logoUrl": "/logo.png",
+        "description": "Some customers indicate that consumer responses to marketing have become less predictable.",
+        "sections": [
+          {
+            "title": "Product",
+            "items": [
+              "Logo Design",
+              "Graphic Design",
+              "Website Design",
+              "Mobile Design"
+            ]
+          },
+          {
+            "title": "Company",
+            "items": ["Services", "About Us", "Project", "Customer"]
+          },
+          {
+            "title": "Quick Contact",
+            "items": [
+              "+62 896 777 8907",
+              "infodesign.com",
+              "Contact Us",
+              "Terms Of Services"
+            ]
+          }
+        ],
+        "copyright": "Copyright © 2025 All rights reserved"
+      },
+      "fr": {
+        "logoUrl": "/logo.png",
+        "description": "Certains clients indiquent que les réactions des consommateurs au marketing sont devenues moins prévisibles.",
+        "sections": [
+          {
+            "title": "Produit",
+            "items": [
+              "Conception de logo",
+              "Conception graphique",
+              "Conception de site",
+              "Design mobile"
+            ]
+          },
+          {
+            "title": "Entreprise",
+            "items": ["Services", "À propos", "Projet", "Client"]
+          },
+          {
+            "title": "Contact rapide",
+            "items": [
+              "+62 896 777 8907",
+              "infodesign.com",
+              "Contactez-nous",
+              "Conditions d'utilisation"
+            ]
+          }
+        ],
+        "copyright": "Droits d’auteur © 2025 Tous droits réservés"
+      },
+      "ar": {
+        "logoUrl": "/logo.png",
+        "description": "يشير بعض العملاء إلى أن استجابات المستهلكين للتسويق أصبحت أقل قابلية للتنبؤ.",
+        "sections": [
+          {
+            "title": "المنتج",
+            "items": [
+              "تصميم الشعار",
+              "التصميم الجرافيكي",
+              "تصميم الموقع",
+              "تصميم الهاتف"
+            ]
+          },
+          {
+            "title": "الشركة",
+            "items": ["الخدمات", "معلومات عنا", "مشروع", "العملاء"]
+          },
+          {
+            "title": "اتصال سريع",
+            "items": [
+              "+62 896 777 8907",
+              "infodesign.com",
+              "اتصل بنا",
+              "شروط الخدمة"
+            ]
+          }
+        ],
+        "copyright": "حقوق النشر © 2025 جميع الحقوق محفوظة"
+      }
+    }
+  }
+]

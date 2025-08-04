@@ -1,0 +1,136 @@
+[
+  {
+    "id": "header",
+    "type": "Header",
+    "translations": {
+      "en": {
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "About Us", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Review", "href": "/review" }
+        ],
+        "contactLabel": "Contact Us",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "fr": {
+        "navItems": [
+          { "label": "Accueil", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "À propos", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Avis", "href": "/review" }
+        ],
+        "contactLabel": "Contactez-nous",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "ar": {
+        "navItems": [
+          { "label": "الرئيسية", "href": "/" },
+          { "label": "الخدمات", "href": "/services" },
+          { "label": "من نحن", "href": "/about" },
+          { "label": "أعمالنا", "href": "/portfolio" },
+          { "label": "المراجعات", "href": "/review" }
+        ],
+        "contactLabel": "اتصل بنا",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      }
+    }
+  },
+{
+    "id": "services",
+    "type": "Services",
+    "imageUrl": "https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4?autoplay=1",
+    "translations": {
+      "en": {
+        "title": "Services We",
+        "highlight": "Provide",
+        "paragraph": "We offer a wide range of design services to meet all your creative needs:",
+        "services": [
+          {
+            "title": "Social Media Design",
+            "description": "Creating compelling visuals for your social media platforms is essential",
+            "colored": true
+          },
+          {
+            "title": "Graphic Design for Branding",
+            "description": "Creating eye-catching graphics that represent your brand identity and attract your target audience. Seamless user experiences.",
+            "colored": false
+          },
+          {
+            "title": "Optimized UI/UX Design for Digital Products",
+            "description": "Designing intuitive interfaces that enhance user satisfaction and product usability.",
+            "colored": false
+          },
+          {
+            "title": "Video Production and Editing",
+            "description": "Producing high-quality videos that tell your brand story and engage your audience.",
+            "colored": false
+          }
+        ]
+      },
+      "fr": {
+        "title": "Services",
+        "highlight": "Offerts",
+        "paragraph": "Nous proposons une large gamme de services de design pour répondre à tous vos besoins créatifs :",
+        "services": [
+          {
+            "title": "Design pour les réseaux sociaux",
+            "description": "Créer des visuels percutants pour vos plateformes sociales est essentiel",
+            "colored": true
+          },
+          {
+            "title": "Design graphique pour l’image de marque",
+            "description": "Créer des visuels accrocheurs qui reflètent l'identité de votre marque et attirent votre audience cible. Expériences utilisateurs fluides.",
+            "colored": false
+          },
+          {
+            "title": "Conception UI/UX optimisée pour les produits numériques",
+            "description": "Concevoir des interfaces intuitives qui améliorent la satisfaction et l’expérience utilisateur.",
+            "colored": false
+          },
+          {
+            "title": "Production et montage vidéo",
+            "description": "Produire des vidéos de haute qualité qui racontent l’histoire de votre marque et captivent votre audience.",
+            "colored": false
+          }
+        ]
+      },
+      "ar": {
+        "title": "خدماتنا",
+        "highlight": "المقدمة",
+        "paragraph": "نقدم مجموعة واسعة من خدمات التصميم لتلبية جميع احتياجاتك الإبداعية:",
+        "services": [
+          {
+            "title": "تصميم وسائل التواصل الاجتماعي",
+            "description": "إنشاء تصاميم جذابة وفعالة لمنصات التواصل الاجتماعي الخاصة بك أمر ضروري",
+            "colored": true
+          },
+          {
+            "title": "تصميم الجرافيك للهوية البصرية",
+            "description": "إنشاء رسومات ملفتة تعكس هوية علامتك التجارية وتجذب جمهورك المستهدف. تجارب مستخدم سلسة.",
+            "colored": false
+          },
+          {
+            "title": "تصميم UI/UX محسن للمنتجات الرقمية",
+            "description": "تصميم واجهات سهلة الاستخدام تعزز رضا المستخدم وسهولة استخدام المنتج.",
+            "colored": false
+          },
+          {
+            "title": "إنتاج وتحرير الفيديو",
+            "description": "إنتاج فيديوهات عالية الجودة تسرد قصة علامتك التجارية وتجذب جمهورك.",
+            "colored": false
+          }
+        ]
+      }
+    }
+  }
+]

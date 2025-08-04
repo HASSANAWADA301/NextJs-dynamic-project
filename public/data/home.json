@@ -1,0 +1,112 @@
+[
+  
+  {
+    "id": "header",
+    "type": "Header",
+    "translations": {
+      "en": {
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "About Us", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Review", "href": "/review" }
+        ],
+        "contactLabel": "Contact Us",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "fr": {
+        "navItems": [
+          { "label": "Accueil", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "À propos", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Avis", "href": "/review" }
+        ],
+        "contactLabel": "Contactez-nous",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "ar": {
+        "navItems": [
+          { "label": "الرئيسية", "href": "/" },
+          { "label": "الخدمات", "href": "/services" },
+          { "label": "من نحن", "href": "/about" },
+          { "label": "أعمالنا", "href": "/portfolio" },
+          { "label": "المراجعات", "href": "/review" }
+        ],
+        "contactLabel": "اتصل بنا",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      }
+    }
+  },
+  {
+    "id": "hero",
+    "type": "Hero",
+    "imageUrl": "/images/hero.jpg",
+    "urlImage": "https://img.freepik.com/free-photo/young-man-with-his-arms-air_23-2148283136.jpg",
+    "translations": {
+      "en": {
+        "heading": "Transforming Your Ideas into Stunning Designs",
+        "highlightWords": ["Transforming", "Stunning"],
+        "tabs": [
+          { "label": "Get your design", "lighted": false },
+          { "label": "10k+ Client", "lighted": true }
+        ],
+        "cards": [
+          {
+            "title": "Creative Expertise in Innovative Design",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          },
+          {
+            "title": "Tailored Solution:\nCustomized for:\nYou",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          }
+        ]
+      },
+
+      "ar": {
+        "heading": "نحو تحويل أفكارك إلى تصاميم مدهشة",
+        "highlightWords": ["تحويل", "مدهشة"],
+        "tabs": [
+          { "label": "احصل على تصميمك", "lighted": false },
+          { "label": "+10 آلاف عميل", "lighted": true }
+        ],
+        "cards": [
+          {
+            "title": "الخبرة الإبداعية في التصميم المبتكر",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          },
+          {
+            "title": "حلول مخصصة: مصممة لك بكل شيء",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          }
+        ]
+      },
+      "fr": {
+        "heading": "Transformer vos idées en designs époustouflants",
+        "highlightWords": ["Transformer", "époustouflants"],
+        "tabs": [
+          { "label": "Obtenez votre design", "lighted": false },
+          { "label": "10k+ Clients", "lighted": true }
+        ],
+        "cards": [
+          {
+            "title": "Expertise créative en design innovant",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          },
+          {
+            "title": "Solutions personnalisées :\nConçues ",
+            "imageUrl": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e"
+          }
+        ]
+      }
+    }
+  }
+
+]

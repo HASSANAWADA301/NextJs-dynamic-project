@@ -1,0 +1,96 @@
+[
+  {
+    "id": "header",
+    "type": "Header",
+    "translations": {
+      "en": {
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "About Us", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Review", "href": "/review" }
+        ],
+        "contactLabel": "Contact Us",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "fr": {
+        "navItems": [
+          { "label": "Accueil", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "À propos", "href": "/about" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Avis", "href": "/review" }
+        ],
+        "contactLabel": "Contactez-nous",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      },
+      "ar": {
+        "navItems": [
+          { "label": "الرئيسية", "href": "/" },
+          { "label": "الخدمات", "href": "/services" },
+          { "label": "من نحن", "href": "/about" },
+          { "label": "أعمالنا", "href": "/portfolio" },
+          { "label": "المراجعات", "href": "/review" }
+        ],
+        "contactLabel": "اتصل بنا",
+        "showSearchIcon": true,
+        "showUserIcon": true,
+        "logoUrl": "/logo.png"
+      }
+    }
+  },
+ {
+    "id": "feedback",
+    "type": "Feedback",
+    "translations": {
+      "en": {
+        "title": "Testimonials",
+        "subtitle": "500+ Happy Clients Said To US They Are Satisfied",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/05/05/08/05/butterfly-5131967_1280.jpg",
+        "feedbacks": [
+          {
+            "name": "Hassan Awada",
+            "country": "Lebanon",
+            "content": "Excellent service!"
+          },
+          { "name": "Sarah", "country": "USA", "content": "Very satisfied." }
+        ]
+      },
+      "fr": {
+        "title": "Témoignages",
+        "subtitle": "500+ clients satisfaits nous ont dit qu'ils sont heureux",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/05/05/08/05/butterfly-5131967_1280.jpg",
+        "feedbacks": [
+          {
+            "name": "Hassan Awada",
+            "country": "Liban",
+            "content": "Service excellent!"
+          },
+          {
+            "name": "Sarah",
+            "country": "États-Unis",
+            "content": "Très satisfaite."
+          }
+        ]
+      },
+      "ar": {
+        "title": "آراء العملاء",
+        "subtitle": "أكثر من 500 عميل سعداء قالوا إنهم راضون",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/05/05/08/05/butterfly-5131967_1280.jpg",
+        "feedbacks": [
+          {
+            "name": "حسن عواضة",
+            "country": "لبنان",
+            "content": "خدمة ممتازة!"
+          },
+          { "name": "سارة", "country": "أمريكا", "content": "راضية جدًا." }
+        ]
+      }
+    }
+  }
+]
