@@ -6,35 +6,35 @@ interface SectionItem {
   translations: {
     [lang: string]: any;
   };
+  [key: string]: any;
 }
 
 interface SectionContentState {
-  data: SectionItem[]; 
-  loadedSections: Record<string, any>;
+  data: Record<string, SectionItem>;
 }
 
 const initialState: SectionContentState = {
-  data: [],
-  loadedSections: {},
+  data: {},
 };
 
 const contentSlice = createSlice({
   name: "content",
   initialState,
   reducers: {
-    
-    setAllSections: (state, action: PayloadAction<SectionItem[]>) => {
+    // Replace the entire content
+    setAllSections: (state, action: PayloadAction<Record<string, SectionItem>>) => {
       state.data = action.payload;
     },
 
-   
-    setSectionContent: (state, action: PayloadAction<{ id: string; content: any }>) => {
-      state.loadedSections[action.payload.id] = action.payload.content;
+    // Set or update one section
+    setSectionContent: (state, action: PayloadAction<SectionItem>) => {
+      const item = action.payload;
+      state.data[item.id] = item;
     },
 
-    
+    // Remove a section
     clearSectionContent: (state, action: PayloadAction<string>) => {
-      delete state.loadedSections[action.payload];
+      delete state.data[action.payload];
     },
   },
 });

@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import contentReducer from './slices/contentSlice';
+import dynamicConfigReducer from "./slices/dynamicConfigSlice";
 
 
 export const store = configureStore({
   reducer: {
-    content:contentReducer
+    content:contentReducer,
+    dynamicConfig: dynamicConfigReducer,
   },
 });
 
